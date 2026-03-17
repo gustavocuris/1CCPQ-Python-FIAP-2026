@@ -14,7 +14,7 @@ peso = 59.8
 
 print(nome, idade, peso)
 
-print(f'Olá,{nome}! Você tem {idade} anos e {peso} KG')
+print(f'Olá, {nome}! Você tem {idade} anos e pesa {peso} KG')
 
 #INPUTS --- SIMULAÇÃO DE UM FORMS NO CMD
 
@@ -26,7 +26,7 @@ print(nome1, idade1, peso1)
 
 #DESAFIO 1
 nome2 = input ("Digite seu nome:")
-print(f'BEM-VINDO {nome2}! ')
+print(f'BEM-VINDO,{nome2}! ')
 
 #DESAFIO 2
 dia = input ("Digite seu DIA de Nascimento:")
@@ -38,4 +38,4 @@ print(f'SUA DATA DE NASCIMENTO É: {dia}/{mes}/{ano}')
 
 n1 = int (input ("Digite o primeiro número:"))
 n2 = int (input ("Digite o segundo número:"))
-print(f'A soma desses números é: {n1 + n2}')
+print(f'A SOMA DESSES NÚMEROS É: {n1 + n2}')
