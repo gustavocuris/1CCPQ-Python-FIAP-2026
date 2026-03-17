@@ -36,6 +36,6 @@ print(f'SUA DATA DE NASCIMENTO É: {dia}/{mes}/{ano}')
 
 #DESAFIO 3
 
-n1 = int (input ("Digite o primeiro número:"))
-n2 = int (input ("Digite o segundo número:"))
+n1 = int (input ("Digite o 1° número:"))
+n2 = int (input ("Digite o 2° número:"))
 print(f'A SOMA DESSES NÚMEROS É: {n1 + n2}')
