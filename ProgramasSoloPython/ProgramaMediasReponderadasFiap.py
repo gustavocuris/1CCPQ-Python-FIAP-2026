@@ -1,7 +1,7 @@
 # SISTEMA DE NOTA PONDERADA FIAP
-n1 = float(input("Digite NOTA, primeiro trimestre: ").replace(',', '.'))
-n2 = float(input("Digite NOTA, segundo trimestre: ").replace(',', '.'))
-n3 = float(input("Digite NOTA, terceiro trimestre: ").replace(',', '.'))
+n1 = float(input('  * DIGITE NOTA DO 1° TRIMESTE: ').replace(',', '.'))
+n2 = float(input(' \n * DIGITE NOTA DO 2° TRIMESTE: ').replace(',', '.'))
+n3 = float(input(' \n * DIGITE NOTA DO 3° TRIMESTE: ').replace(',', '.'))
 
 # ARREDONDAMENTO DE NOTAS
 # n1
@@ -22,13 +22,13 @@ vnotas = n1 * 3 + n2 * 2 + n3 * 5
 vtotal = vnotas / 10
 
 # PRINTS
-print(f"SUA NOTA FINAL É: {vtotal:.2}")
+print(f" \n * SUA NOTA FINAL É: {vtotal:.1f}")
 
 if vtotal >= 6:
-    print('VOCÊ FOI APROVADO, PARABÉNS!')
+    print(' \n * VOCÊ FOI APROVADO, PARABÉNS!')
 
 elif vtotal < 6 and (vtotal > 3):
-    print('VOCÊ ESTÁ DE EXAME, ESTUDE!')
+    print(' \n * VOCÊ ESTÁ DE EXAME, ESTUDE!')
 
 if vtotal < 3:
-    print('VOCÊ FOI REPROVADO!')
+    print(' \n * VOCÊ FOI REPROVADO!')
