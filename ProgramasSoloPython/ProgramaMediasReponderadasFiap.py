@@ -25,10 +25,10 @@ vtotal = vnotas / 10
 print(f"SUA NOTA FINAL É: {vtotal:.2}")
 
 if vtotal >= 6:
-    print('VOCÊ ESTÁ APROVADO, PARABÉNS!')
+    print('VOCÊ FOI APROVADO, PARABÉNS!')
 
 elif vtotal < 6 and (vtotal > 3):
     print('VOCÊ ESTÁ DE EXAME, ESTUDE!')
 
 if vtotal < 3:
-    print('VOCÊ ESTÁ REPROVADO!')
+    print('VOCÊ FOI REPROVADO!')
