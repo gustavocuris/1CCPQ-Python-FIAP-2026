@@ -1,0 +1,32 @@
+t = ('a', 'b', 'c', 'd', 'e')
+print(t)
+
+t1 = ('a', 'b', 'c', 'd', 'e')
+print(t1)
+
+t = tuple("fiap")
+print(t)
+print(t[1:3])
+
+t = ('F',) = t[1:]
+print(t)
+
+# ATIBUIÇÃO COM TUPLAS
+
+a = 5
+b = 10
+print(f'a: {a}, b: {b}')
+
+temp = a # 5
+a = b # a = 10
+b = temp
+print(f'a: {a}, b: {b}')
+
+a, b = b, a
+print(f'a: {a}, b: {b}')
+
+email ='gustavo.c.francisco2007@gmail.com'
+usuario, dominio = email.split('@')
+print(usuario)
+print(dominio)
+
